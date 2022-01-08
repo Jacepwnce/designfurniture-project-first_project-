@@ -38,10 +38,13 @@ color: #303032;
 font-size: 14px;
 text-transform: uppercase;
 letter-spacing: 0.13em;
+font-family: 'Open Sans';
+font-weight: 400;
+letter-spacing: 13%;
 }
 
 .nav_designer_furniture a:hover{
-    text-decoration: underline;
+    text-shadow: 1px 1px 2px #303032;
 }
 
 .nav_designer_furniture a:nth-child(3){
@@ -72,16 +75,19 @@ letter-spacing: 0.13em;
     text-transform: uppercase;
     line-height: 82.65px;
     margin-bottom: 35px;
+    font-family:'Playfair Display';
+    font-weight: 700;
 }
 
 .designer_furniture__text{
-    max-width: 545px;
-    
+    max-width: 545px; 
 }
+
 
 .main__desscription__subtitle{
     font-size: 20px;
-    
+    font-family:'Open Sans';
+    font-weight: 400;   
 }
 
 .first-version , .second-version{
@@ -94,6 +100,8 @@ letter-spacing: 0.13em;
     margin-right: 22px;
     cursor: pointer;
     margin-bottom: 35px;
+    font-family:'Open Sans';
+    font-weight: 400; 
 }
 
 .second-version{
@@ -101,22 +109,27 @@ letter-spacing: 0.13em;
 }
 
 .first-version:hover{
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .second-version:hover{
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn-buy{
-max-width: 238px;
+width: 238px;
 height: 58px;
 font-size: 16px;
+text-transform: uppercase;
 color:#fff;
 background-color:#303032;
 padding: 18px 82px 18px 80px;
 cursor: pointer;
 margin-bottom: 139px;
+font-family:'Open Sans';
+font-weight: 400; 
+box-sizing: border-box;
+letter-spacing: 13%;
 }
 
 .right_half_designer_furniture{
@@ -206,11 +219,38 @@ margin-bottom: 139px;
     margin-top: 123px;
     text-transform: uppercase;
     font-size: 28px;
+    font-family:'Playfair Display';
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 0;
+    letter-spacing: 5%;
+    line-height: 37.32px;
+    color: #303032;
+}
+.left-half_product-cards__title::after{
+    content: '';
+    background-color:#303032;
+    width: 120px;
+    height: 4px;
+    position: absolute;
 }
 
 .left-half_product-cards__first-card{
     text-align: center;
     margin-left: 127px;
+}
+.left-half_product-cards__first-card__title{
+    font-family:'Open Sans';
+    font-weight: 400; 
+    color: #303032;
+    font-size: 20px;
+}
+.left-half_product-cards__first-card__price{
+    font-family:'Open Sans';
+    font-weight: 600; 
+    color: #303032;
+    font-size: 28px;
+    box-sizing: border-box;
 }
 
 .left-half_product-cards__first-card img{
@@ -232,6 +272,19 @@ margin-bottom: 139px;
     width: 270px;
     text-align: center;
 }
+.left-half_product-cards__second-card_title{
+    font-family:'Open Sans';
+    font-weight: 400; 
+    color: #303032;
+    font-size: 20px;
+}
+.left-half_product-cards__second-card__price{
+    font-family:'Open Sans';
+    font-weight: 600; 
+    color: #303032;
+    font-size: 28px;
+    box-sizing: border-box;
+}
 
 .left-half_product-cards__second-card img{
     padding: 1px 32px 7px 36px;
@@ -245,6 +298,20 @@ margin-bottom: 139px;
     text-align: center;
 }
 
+.left-half_product-cards__third-card_title{
+    font-family:'Open Sans';
+    font-weight: 400; 
+    color: #303032;
+    font-size: 20px;
+}
+
+.left-half_product-cards__third-card_price{
+    font-family:'Open Sans';
+    font-weight: 600; 
+    color: #303032;
+    font-size: 28px;
+    box-sizing: border-box;
+}
 .left-half_product-cards__third-card:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -254,6 +321,19 @@ margin-bottom: 139px;
     margin-left: 30px;
     text-align: center;
 }
+.right-half_product-cards_title{
+    font-family:'Open Sans';
+    font-weight: 400; 
+    color: #303032;
+    font-size: 20px;
+}
+.right-half_product-cards_price{
+    font-family:'Open Sans';
+    font-weight: 600; 
+    color: #303032;
+    font-size: 28px;
+    box-sizing: border-box;
+}
 
 .right-half_product-cards img{
     padding: 19px 37px 29px 43px;
@@ -261,7 +341,7 @@ margin-bottom: 139px;
     width: 490px;
 }
 
-.right-half_product-cards img:hover{
+.right-half_product-cards:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 /* TOP-Карточки товаров готовы */
@@ -277,14 +357,18 @@ margin-bottom: 139px;
 }
 
 .name{
-    font-weight: 600;
     font-size: 16px;
     line-height: 24.7px;
     color:#444348;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 
 .activity{
     color:#444348;
+    font-family: 'Avenir Next Cyr';
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .reviews__text{
@@ -293,24 +377,39 @@ margin-bottom: 139px;
     font-size: 16px;
     font-style: italic;
     color: #444348;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.next-arrow::before{
+    content: url(../img/right_arrow.svg);
+    position: absolute;
+    width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	right: 307.01px;
+    padding: 26.97px 11.61px 8.9px 11.25px;
 }
 
 .next-arrow::after{
-    content: "";
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    right: 307.1px;
+    content: '';
+    display: none;
 }
 
-
 .prev-arrow::after{
-    content: "";
+    content:'';
+    display: none;
+}
+.prev-arrow::before{
+    content: url(../img/left_arrow.svg);
     position: absolute;
     width: 36px;
-    height: 36px;
-    left: 307.1px;
-    border-radius: 1px solid #fff;
+	height: 36px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	left: 308px;
+    padding: 26.97px 11.61px 8.9px 11.25px;
 }
 
 .swiper-pagination-bullet{
@@ -332,20 +431,39 @@ margin-bottom: 139px;
 }
 
 .container__last-chance::after{
-    content:url("../img/last-chance/bg-last-chance.jpg");
+    content:'';
+    background-image: url("../img/last-chance/bg-last-chance.jpg");
     position: absolute;
     bottom: 11px;
     z-index: -1; 
     left: 0;
     background-size: 100%;
+    width: 1000px;
+    height: 545px;
 }
 .desscription_last{
     font-size: 28px;
     margin-top: 204px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    letter-spacing: 5%;
+    color:#303032;
+}
+
+.desscription_last::before{
+    content: '';
+    background-color:#303032;
+    width: 120px;
+    height: 4px;
+    position: absolute;
+    top: 40px;
+    
 }
 
 .last_chance__categoryes{
     margin-bottom: 25px;
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 
 
@@ -371,6 +489,9 @@ margin-bottom: 139px;
 .flex-item_chair__name{
     margin-top: 31px;
     margin-left: 23px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .flex-item_chair__price{
@@ -381,17 +502,26 @@ margin-bottom: 139px;
     border: 0;
     background-color:#fff;
     cursor:pointer;
+   
 }
 
 .actual-price{
     font-size: 28px;
     font-weight: 600;
     color: #303032;
-    margin-right: 11px;
+    margin-right: 11px; 
+    font-family:'Open Sans';
+    font-weight: 600; 
+    box-sizing: border-box;
+    letter-spacing: 13%;
 }
 
 .old-price{
 color: #979798;
+font-family:'Open Sans';
+font-weight: 600; 
+box-sizing: border-box;
+letter-spacing: 13%
 }
 
 .last_chance__img-chair img{
@@ -419,6 +549,10 @@ color: #979798;
    box-sizing: border-box;
    background-color:#303032;
    color:#fff;
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-size: 16px;
+   letter-spacing: 13%;
 }
 
 .flex-item_chair:hover .btn-hover{
@@ -451,6 +585,9 @@ color: #979798;
     color: #303032;
     text-transform: uppercase;
     font-size: 14px;
+    font-family: 'Avenir Next Cyr';
+    font-weight: 600;
+    letter-spacing: 5%;
 }
 
 .footer-function a:nth-child(4){
@@ -469,12 +606,21 @@ color: #979798;
 .contact-info a{
     text-decoration: none;
     color: #303032;
+    
 }
 
 .tel-number{
     margin-right: 50.81px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
 }
 
+.e-mail{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
 .tel-number::before{
     content:url("../img/footer/phone.svg");
     margin-right:5px;
