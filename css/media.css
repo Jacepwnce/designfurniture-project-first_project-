@@ -105,7 +105,7 @@
     
     .bg-for-slider{
         width: 535px;
-        height: 600px;
+        height: 650px;
         right: -150px;
     }
     
@@ -291,7 +291,7 @@
 
     .bg-for-slider{
         width:383px;
-        height: 500px;
+        height: 610px;
     }
 
     .right_half_designer_furniture{
@@ -451,7 +451,7 @@
 
 @media screen and (max-width:425px) {
     body{
-        max-width:  375px;
+        max-width: 424px;
     }
     .container{
         width: 400px;
@@ -715,8 +715,8 @@
             flex-direction: column;
             align-items:flex-start;
         }
-       
+}
 
-       
-       
+@media screen and (max-width:375px) {
+    
 }

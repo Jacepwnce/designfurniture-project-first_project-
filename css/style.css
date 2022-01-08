@@ -7,34 +7,13 @@ body{
 .header{
     display: none;
 }
-.header_nav {
-    position: absolute;
-    right: 36px;
-    display: block;
-}
-.header_menu {
-    display: flex;
-    position: relative;
-    z-index: 2;
-}
-.header_menu li {
-    list-style: none;
-    margin: 0px 0px 0px 36px;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.content-wrapper{
-    margin-top: 78px;
-    padding: 10px;
-    line-height: 34px;
-}
+
 
 
 .container_designer_furniture{
 max-width: 1170px;
 margin: 0 auto;
-margin-top: 90px;
+padding-top: 90px;
 }
 
 .designer_furniture__nav{
@@ -154,7 +133,7 @@ margin-bottom: 139px;
 
 .bg-for-slider{
     width: 548px;
-    height: 908px;
+    height: 1000px;
     background-color:#FCEAE8;
     position: absolute;
     top: 0;
