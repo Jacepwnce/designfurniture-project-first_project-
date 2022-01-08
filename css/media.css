@@ -779,15 +779,16 @@
      
        
         .header {
-            width: 300px;
+            width: 320px;
         }
       
         .header__menu {
-            width: 300px;
+            width: 320px;
         }
     
         .header__menu.active{
-            width: 300px;
+            width: 320px;
+            height: 568px;
         }
         
         .main_wrapper__top{
