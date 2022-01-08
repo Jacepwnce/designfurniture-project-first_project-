@@ -1,0 +1,520 @@
+ 
+body{
+    background-color:#f9fdff;
+    position: relative;
+    
+}
+.header{
+    display: none;
+}
+.header_nav {
+    position: absolute;
+    right: 36px;
+    display: block;
+}
+.header_menu {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header_menu li {
+    list-style: none;
+    margin: 0px 0px 0px 36px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.content-wrapper{
+    margin-top: 78px;
+    padding: 10px;
+    line-height: 34px;
+}
+
+
+.container_designer_furniture{
+max-width: 1170px;
+margin: 0 auto;
+margin-top: 90px;
+}
+
+.designer_furniture__nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo_designer_furniture{
+    margin-right: 138.63px;
+}
+
+.nav_designer_furniture{
+    display: flex;
+    align-items: center;
+}
+
+.nav_designer_furniture a{
+margin-right: 60px;
+text-decoration: none;
+color: #303032;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 0.13em;
+}
+
+.nav_designer_furniture a:hover{
+    text-decoration: underline;
+}
+
+.nav_designer_furniture a:nth-child(3){
+    margin-right: 530px;
+}
+
+.nav_designer_furniture a:nth-child(4){
+    margin-right: 22px;
+}
+
+.nav_designer_furniture a:nth-child(5){
+    margin-right: 0;
+}
+
+/* Навигация готова*/
+
+.main_wrapper__top{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.main__desscription{
+    font-size: 57px;
+    text-transform: uppercase;
+    line-height: 82.65px;
+    margin-bottom: 35px;
+}
+
+.designer_furniture__text{
+    max-width: 545px;
+    
+}
+
+.main__desscription__subtitle{
+    font-size: 20px;
+    
+}
+
+.first-version , .second-version{
+    margin-top: 20px;
+    border: 0;
+    background-color:#f9fdff;
+    width: 69px;
+    height: 41px;
+    font-size: 30px;
+    margin-right: 22px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.second-version{
+    margin-right: 0;
+}
+
+.first-version:hover{
+    font-weight: 700;
+}
+
+.second-version:hover{
+    font-weight: 700;
+}
+
+.btn-buy{
+max-width: 238px;
+height: 58px;
+font-size: 16px;
+color:#fff;
+background-color:#303032;
+padding: 18px 82px 18px 80px;
+cursor: pointer;
+margin-bottom: 139px;
+}
+
+.right_half_designer_furniture{
+    background-color:#FCEAE8;
+    width: 532px;
+    height: 751px;
+}
+
+.right_half_designer_furniture img{
+    /* position: absolute; */
+    top: 0;
+    z-index: -1;
+}
+
+.bg-for-slider{
+    width: 548px;
+    height: 908px;
+    background-color:#FCEAE8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.mySlider{
+    height: 751px;
+}
+
+.mySlider .swiper-pagination-bullet {
+	font-family: Playfair Display;
+	font-size: 20px;
+	line-height: 145%;
+	letter-spacing: 0.05em;
+	margin: var(20px) 0 !important;
+	background: transparent;
+	width: auto;
+	height: auto;
+	border-radius: 0;
+	margin-top: 0 !important;
+	margin-bottom: 20px !important;
+	opacity: 1;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.mySlider .swiper-pagination-bullet:hover {
+	color: #4d4d50;
+}
+
+.mySlider .swiper-pagination-bullet-active:hover {
+	color: black
+}
+
+.mySlider .swiper-pagination-bullet-active {
+	color: black;
+	width: 61px;
+	font-size: 40px;
+}
+
+.mySlider .swiper-pagination-bullet-active::after {
+	content: "";
+	background: black;
+	right: 0;
+	position: absolute;
+	height: 54px;
+	width: 2px;
+}
+/* <!-- Доделать правую часть со слайдером --> */
+
+.container_product-cards{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+.left-half_product-cards{
+     display: flex;
+     flex-direction: column;
+}
+
+.left-half_product-cards_top-line{
+    display: flex;
+}
+
+.left-half_product-cards__title{
+    margin-top: 123px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.left-half_product-cards__first-card{
+    text-align: center;
+    margin-left: 127px;
+}
+
+.left-half_product-cards__first-card img{
+    padding: 20px 48px 10px 47px;
+}
+
+.left-half_product-cards__first-card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.left-half_product-cards_bot-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 37px;
+}
+
+.left-half_product-cards__second-card{
+    width: 270px;
+    text-align: center;
+}
+
+.left-half_product-cards__second-card img{
+    padding: 1px 32px 7px 36px;
+}
+
+.left-half_product-cards__second-card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.left-half_product-cards__third-card{
+    text-align: center;
+}
+
+.left-half_product-cards__third-card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.right-half_product-cards{
+    width: 570px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.right-half_product-cards img{
+    padding: 19px 37px 29px 43px;
+    margin-top: 30px;
+    width: 490px;
+}
+
+.right-half_product-cards img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+/* TOP-Карточки товаров готовы */
+
+.container_reviews{
+    height: 276px;
+    text-align: center;
+    margin-top: 102px;
+}
+
+.blue-eyes{
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24.7px;
+    color:#444348;
+}
+
+.activity{
+    color:#444348;
+}
+
+.reviews__text{
+    margin: 0 auto;
+    width: 653px;
+    font-size: 16px;
+    font-style: italic;
+    color: #444348;
+}
+
+.next-arrow::after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 307.1px;
+}
+
+
+.prev-arrow::after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 307.1px;
+    border-radius: 1px solid #fff;
+}
+
+.swiper-pagination-bullet{
+    position: relative;
+    z-index: 5;
+    top: 14px;
+   
+ }
+/* Блок отзывов готов */
+
+.last-chance{
+    position: relative;
+}
+
+.container__last-chance{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.container__last-chance::after{
+    content:url("../img/last-chance/bg-last-chance.jpg");
+    position: absolute;
+    bottom: 11px;
+    z-index: -1; 
+    left: 0;
+    background-size: 100%;
+}
+.desscription_last{
+    font-size: 28px;
+    margin-top: 204px;
+}
+
+.last_chance__categoryes{
+    margin-bottom: 25px;
+}
+
+
+.last_chance__categoryes a{
+    margin-right: 48px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.last_chance__categoryes a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.last_chance__flex-items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flex-item_chair__name{
+    margin-top: 31px;
+    margin-left: 23px;
+}
+
+.flex-item_chair__price{
+    margin-left: 23px;
+}
+
+.old-price, .actual-price{
+    border: 0;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.actual-price{
+    font-size: 28px;
+    font-weight: 600;
+    color: #303032;
+    margin-right: 11px;
+}
+
+.old-price{
+color: #979798;
+}
+
+.last_chance__img-chair img{
+    width: 209px;
+    box-sizing: border-box;
+    height: 271px;
+}
+
+.flex-item_chair{
+    max-width: 209px;
+    background-color:#fff;
+    position: relative;
+}
+
+.flex-item_chair:hover{
+    border-top: 3px solid #000;
+}
+
+.btn-hover{
+   width: 209px;
+   padding: 18px 66px;
+   position: absolute;
+   opacity: 0;
+   text-transform: uppercase;
+   box-sizing: border-box;
+   background-color:#303032;
+   color:#fff;
+}
+
+.flex-item_chair:hover .btn-hover{
+     opacity: 1; 
+     cursor:pointer;  
+     box-sizing: border-box;
+}
+/* last-chance готов   доделать стили*/
+
+.footer{
+    margin-top: 111px;
+    padding-top: 100px;
+    background-color:white;
+}
+
+.container_footer{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.footer-function_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-function a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #303032;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer-function a:nth-child(4){
+    margin-right: 0;
+}
+
+
+.contact-info{
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #303032;
+}
+
+.tel-number{
+    margin-right: 50.81px;
+}
+
+.tel-number::before{
+    content:url("../img/footer/phone.svg");
+    margin-right:5px;
+    vertical-align: middle;
+}
+
+.e-mail::before{
+    content:url("../img/footer/evenlope.svg");
+    margin-right:5px;
+    vertical-align: middle;
+}
+
+.rights-reserved{
+    text-align: end;
+    padding-top: 10px;
+    color: #000;
+    opacity: 0.2;
+    font-size: 10px;
+}
+
+
+
