@@ -802,6 +802,9 @@
              width: 300px;
          }
         
+         .container_reviews{
+             width: 287px;
+         }
         .reviews__text{
              width: 300px;
         }
@@ -816,6 +819,6 @@
             width: 209px;
         }
         .container_footer{
-            max-width: 300px;
+            max-width: 290x;
          }
     }
