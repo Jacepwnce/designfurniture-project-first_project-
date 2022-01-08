@@ -451,7 +451,7 @@
 
 @media screen and (max-width:425px) {
     body{
-        max-width: 424px;
+        max-width: 410px;
     }
     .container{
         width: 400px;
@@ -464,7 +464,7 @@
     }
     .header {
         position: fixed;
-        width: 375зч;
+        width: 412px;
         top: 0;
         left: 0;
         z-index: 50;
@@ -717,6 +717,104 @@
         }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
+    body{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .container{
+        width: 350px;
+    }
+ 
+   
+    .header {
+        width: 350px;
+    }
+  
+    .header__menu {
+        width: 350px;
+    }
+
+    .header__menu.active{
+        width: 350px;
+    }
     
-}
+    .main_wrapper__top{
+       max-width:350px;
+    }
+      
+     .designer_furniture__text{
+          max-width: 350px;
+    }
+    .container_product-cards{
+         width: 350px;
+     }
+    
+    .reviews__text{
+         width: 350px;
+    }
+    .container__last-chance{
+         max-width:350px;
+    }
+    .last_chance__flex-items{
+         max-width: 350px;
+    }
+    
+    .btn-hover{
+        width: 209px;
+    }
+    .container_footer{
+        max-width: 350px;
+     }
+    }
+
+    @media screen and (max-width: 320px){
+        body{
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .container{
+            width: 300px;
+        }
+     
+       
+        .header {
+            width: 300px;
+        }
+      
+        .header__menu {
+            width: 300px;
+        }
+    
+        .header__menu.active{
+            width: 300px;
+        }
+        
+        .main_wrapper__top{
+           max-width:300px;
+        }
+          
+         .designer_furniture__text{
+              max-width: 300px;
+        }
+        .container_product-cards{
+             width: 300px;
+         }
+        
+        .reviews__text{
+             width: 300px;
+        }
+        .container__last-chance{
+             max-width:300px;
+        }
+        .last_chance__flex-items{
+             max-width: 300px;
+        }
+        
+        .btn-hover{
+            width: 209px;
+        }
+        .container_footer{
+            max-width: 300px;
+         }
+    }
