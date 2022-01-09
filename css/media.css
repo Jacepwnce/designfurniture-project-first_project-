@@ -13,6 +13,10 @@
 
 
 @media screen  and (max-width: 1440px){
+    body{
+        overflow-x: hidden;
+    }
+    
     .container{
         width: 1170px;
     }
@@ -27,8 +31,7 @@
 
 @media screen and (max-width: 1024px) {
     body{
-        width:1000px;
-        overflow-x: hidden;
+        width: 1024px;
     }
     .header{
         display: none;
@@ -104,9 +107,9 @@
     }
     
     .bg-for-slider{
-        width: 535px;
-        height: 650px;
-        right: -150px;
+        width: 398px;
+        height: 637px;
+        right: 0px;
     }
     
     .mySlider .swiper-pagination-bullet-active{
@@ -168,6 +171,7 @@
         height: 581px;
         margin-left: 15px;
         box-sizing: border-box;
+        margin-top: 65px;
      }
 
      .right-half_product-cards_title{
@@ -191,13 +195,13 @@
         width: 900px;
         margin-top: 80px;
     }
-
-    .next-arrow::after{
-        right: 50px;
+    
+    .next-arrow::before{
+        right: 8px;
     }
 
-    .prev-arrow::after{
-        left: 50px;
+    .prev-arrow::before{
+        left: 8px;
     }
 
     .container__last-chance{
@@ -244,7 +248,8 @@
     }
   
     .container_designer_furniture{
-        width: 700px; 
+        width: 725px; 
+        padding-left: 35px;
     }
     .logo_designer_furniture{
         margin-right: 60px;
@@ -290,8 +295,9 @@
     }
 
     .bg-for-slider{
-        width:383px;
-        height: 610px;
+        width: 251px;
+        height: 572px;
+        right: -18px;
     }
 
     .right_half_designer_furniture{
@@ -359,7 +365,7 @@
 
     .right-half_product-cards{
         width: 190px;
-        height: 300px;
+        height: 380px;
         box-sizing: border-box;
         text-align: center;
         margin-top: 20%;
@@ -382,20 +388,22 @@
         width: 900px;
         margin: 0 auto;
     }
+
+    .reviews-slider{
+        width: 700px;
+        margin: 0 auto;
+    }
     .container_reviews{
         width: 700px;
         margin-top: 80px;
     }
 
-    .next-arrow::after{
-        right: 50px;
+    .next-arrow, .prev-arrow, .pagination-reviews{
+        display: none;
     }
 
-    .prev-arrow::after{
-        left: 50px;
-    }
     .container__last-chance{
-        width: 700px;
+        width: 725px;
     }
 
     .container__last-chance::after{
@@ -431,15 +439,15 @@
     .last_chance__img-chair img{
         width: 80px;
         height: 140px;
-        margin-left: 15px;
+        margin-left: 24px;
     }
 
-    .last_chance__img-chair img:first-child{
+    .last_chance__flex-items img{
         width: 110px;
     }
 
     .btn-hover{
-        width: 140px;
+        width: 147px;
         padding: 18px 33px;
     }
 
@@ -451,7 +459,8 @@
 
 @media screen and (max-width:425px) {
     body{
-        max-width: 410px;
+        max-width: 425px;
+        margin: 0 auto;
     }
     .container{
         width: 400px;
@@ -461,10 +470,11 @@
     }
     .header{
         display: block;
+        width: 425px;
     }
     .header {
         position: fixed;
-        width: 412px;
+        width: 425px;
         top: 0;
         left: 0;
         z-index: 50;
@@ -544,7 +554,8 @@
 
     .header__menu.active{
         top: 0;
-        width: 410px;
+        width: 425x;
+        height: 568px;
     }
     
     .header_link {
@@ -552,6 +563,9 @@
         font-size: 20px;
         text-decoration: none;
         margin-bottom: 20px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        margin-top: 65px;
     }
     
     .header__burger.active::before{
@@ -566,7 +580,7 @@
            transform: scale(0);
         } 
         .main_wrapper__top{
-            max-width:420px;
+            max-width:425px;
             flex-direction: column-reverse;
         }
         .bg-for-slider{
@@ -610,45 +624,65 @@
         }
         .left-half_product-cards__title{
             margin-top: 40px;
+            margin-right: 269px;
+        }
+        .left-half_product-cards__title::after{
+            width: 90px;
         }
         .left-half_product-cards__title h2{
             text-align: center;
             
         }
         .left-half_product-cards__first-card{
-            margin-top: 10px;
+            margin-top: 39px;
             margin-left: -10px;
+            width: 288px;
+            height: 289px;
+            margin-bottom: 30px;
         }
         .left-half_product-cards__first-card img{
-            width: 200px;
-            height: 200px;
-            padding: 10px 18px 10px 17px;
+            width: 175px;
+            height: 169px;
+           
         }
         .left-half_product-cards_bot-line{
-           flex-direction: column;
+           flex-direction: column-reverse;
+           align-items:center;
         }
         .left-half_product-cards__second-card{
-            margin-bottom: 20px;
+            width: 280px;
+            height: 289px;
+            padding: 0 8px 62px 8px;
         }
         .left-half_product-cards__second-card img{
-            width: 150px;
-            height: 160px;
-            padding: 3px 15px 3px 18px;
+            width: 202px;
+            height: 226px;
+            
         }
         .left-half_product-cards__third-card {
-            width: 200px;
-            height: 250px;
+            margin-bottom: 30px;
+            width: 288px;
+            height: 289px;
         }
         .left-half_product-cards__third-card img{
             width: 200px;
             height: 140px;
         }
         .right-half_product-cards{
-            margin-left: -11px;
+            width: 288px;
+            height: 350px;
+            margin-left: -3px;
+            padding: 0 39px 90px 20px;
+            margin-top: 30px;
         }
         .right-half_product-cards img{
-            padding: 9px 18px 18px 23px;
-            margin-top: 0;
+            width: 209px;
+            height: 199px;
+            text-align: center;
+            margin-left: 0;
+        }
+        .reviews-slider{
+            display: none   ;
         }
         .container_reviews{
             width: 390px;
@@ -662,10 +696,16 @@
         }
         .container__last-chance{
             max-width:350px;
-            margin-top: 104px;
             display: flex;
             flex-direction: column;
             align-items:center;
+        }
+        .desscription_last{
+            margin-top: 80px;
+            margin-right: 62px;
+        }
+        .desscription_last::before{
+            top: 118px;
         }
         .last_chance__flex-items{
             max-width: 400px;
@@ -679,6 +719,7 @@
             height: 300px;
             margin-left: 0;
         }
+        
         .flex-item_chair:nth-child(2){
             display: none;
         }
@@ -719,28 +760,27 @@
 
 @media screen and (max-width: 375px) {
     body{
-        max-width: 350px;
+        max-width: 375px;
         margin: 0 auto;
     }
     .container{
-        width: 350px;
+        width: 340px;
     }
  
-   
     .header {
-        width: 350px;
+        width: 375px;
     }
   
     .header__menu {
-        width: 350px;
+        width: 375px;
     }
 
     .header__menu.active{
-        width: 350px;
+        width: 375px;
     }
     
     .main_wrapper__top{
-       max-width:350px;
+       max-width:375px;
     }
       
      .designer_furniture__text{
@@ -770,7 +810,7 @@
 
     @media screen and (max-width: 320px){
         body{
-            max-width: 300px;
+            max-width: 320px;
             margin: 0 auto;
         }
         .container{
@@ -792,27 +832,38 @@
         }
         
         .main_wrapper__top{
-           max-width:300px;
+           max-width:320px;
         }
-          
+        .right_half_designer_furniture{
+            width: 320px;
+        }
          .designer_furniture__text{
               max-width: 300px;
         }
         .container_product-cards{
-             width: 300px;
+             width: 320px;
          }
-        
-         .container_reviews{
-             width: 287px;
-         }
-        .reviews__text{
-             width: 300px;
+         .left-half_product-cards__title {
+            margin-top: 40px;
+            margin-right: 171px;
         }
         .container__last-chance{
-             max-width:300px;
+             max-width:320px;
+             align-items:center;
+        }
+        .last_chance__categoryes{
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+        .last_chance__categoryes a{
+            margin-right: 30px;
+ 
+        }
+        .desscription_last{
+            font-size: 20px;
         }
         .last_chance__flex-items{
-             max-width: 300px;
+             max-width: 320px;
         }
         
         .btn-hover{
