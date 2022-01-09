@@ -747,15 +747,23 @@
             text-align: center;
         }
         .footer-function{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                width: 264px;
+                flex-wrap: wrap;
+        }
+
+        .footer-function a{
+            margin-bottom: 10px;
         }
         .contact-info{
             display: flex;
             flex-direction: column;
             align-items:flex-start;
         }
+        
+        
 }
 
 @media screen and (max-width: 375px) {
@@ -873,6 +881,10 @@
             max-width: 310px;
          }
          .footer-function{
-             width: 85px;
+             width: 258px;
+             margin-left: 95px;
+         }
+         .footer-function a{
+             margin-right: 15px;
          }
     }
