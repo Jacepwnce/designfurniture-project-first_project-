@@ -870,6 +870,9 @@
             width: 209px;
         }
         .container_footer{
-            max-width: 290x;
+            max-width: 310px;
+         }
+         .footer-function{
+             width: 85px;
          }
     }
