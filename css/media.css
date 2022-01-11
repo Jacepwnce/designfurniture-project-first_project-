@@ -460,6 +460,11 @@
     .reserved_right{
         width: 700px;
     } 
+    .footer_flex_items {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    } 
 }
 
 
@@ -744,31 +749,30 @@
         .btn-hover{
             width: 209px;
         }
-        .container_footer{
-            max-width: 400px;
+        .container-footer_flex{
+            width:400px;
+        } 
+        .reserved_right{
+            width: 400px;
+        } 
+        .footer_flex_items {
+            width: 400px;
             display: flex;
             flex-direction: column;
-        }
-        .rights-reserved{
-            text-align: center;
-        }
-        .footer-function{
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                width: 264px;
-                flex-wrap: wrap;
-        }
-
-        .footer-function a{
-            margin-bottom: 10px;
-        }
-        .contact-info{
+        } 
+        .contact-information{
             display: flex;
-            flex-direction: column;
-            align-items:flex-start;
-        }
-        
+            flex-direction:column;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }  
+        .tel-number{
+            margin-bottom: 20px;
+        } 
+       .footer_right_item a{
+       margin-right: 80px;
+       line-height: 30px;
+       }
         
 }
 
@@ -800,6 +804,10 @@
      .designer_furniture__text{
           max-width: 350px;
     }
+    .left-half_product-cards__title{
+        margin-top: 40px;
+        margin-right: 220px;
+    }
     .container_product-cards{
          width: 350px;
      }
@@ -810,6 +818,9 @@
     .container__last-chance{
          max-width:350px;
     }
+    .desscription_last {
+        margin-right: 38px;
+    }
     .last_chance__flex-items{
          max-width: 350px;
     }
@@ -817,10 +828,34 @@
     .btn-hover{
         width: 209px;
     }
-    .container_footer{
-        max-width: 350px;
-     }
-    }
+    .container-footer_flex{
+        width:350px;
+    } 
+        .footer_flex_items {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+        } 
+        .contact-information{
+            display: flex;
+            flex-direction:column;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }  
+        .tel-number{
+            margin-bottom: 20px;
+        } 
+       .footer_right_item a{
+       margin-right: 80px;
+       line-height: 30px;
+       }
+       .reserved_right{
+           width: 350px;
+           text-align: center;
+       }
+}
+
+
 
     @media screen and (max-width: 320px){
         body{
@@ -844,7 +879,9 @@
             width: 320px;
             height: 568px;
         }
-        
+        .header_link {
+            margin-left: -38px;
+        }
         .main_wrapper__top{
            max-width:320px;
         }
@@ -875,7 +912,9 @@
         }
         .desscription_last{
             font-size: 20px;
+            margin-right: 60px;
         }
+
         .last_chance__flex-items{
              max-width: 320px;
         }
@@ -883,14 +922,29 @@
         .btn-hover{
             width: 209px;
         }
-        .container_footer{
-            max-width: 310px;
-         }
-         .footer-function{
-             width: 258px;
-             margin-left: 95px;
-         }
-         .footer-function a{
-             margin-right: 15px;
-         }
+        .container-footer_flex{
+            width:300px;
+        } 
+            .footer_flex_items {
+                width: 300px;
+                display: flex;
+                flex-direction: column;
+            } 
+            .contact-information{
+                display: flex;
+                flex-direction:column;
+                vertical-align: middle;
+                box-sizing: border-box;
+            }  
+            .tel-number{
+                margin-bottom: 20px;
+            } 
+           .footer_right_item a{
+           margin-right: 30px;
+       
+           }
+           .reserved_right{
+               width: 300px;
+               text-align: center;
+           }
     }
