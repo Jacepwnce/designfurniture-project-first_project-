@@ -430,7 +430,7 @@ letter-spacing: 13%;
     
 }
 
-.container__last-chance::after{
+.container__last-chance::after{  /*задний фон*/
     content:'';
     background-image: url("../img/last-chance/bg-last-chance.jpg");
     position: absolute;
@@ -542,7 +542,7 @@ letter-spacing: 13%
     border-top: 3px solid #000;
 }
 
-.btn-hover{
+.btn-hover{    /*отвечает за ховер кнопок */
    width: 209px;
    padding: 18px 66px;
    position: absolute;
@@ -563,7 +563,6 @@ letter-spacing: 13%
      box-sizing: border-box;
 }
 /* last-chance готов   доделать стили*/
-
 
 /* переделываю футер */
 .footer{

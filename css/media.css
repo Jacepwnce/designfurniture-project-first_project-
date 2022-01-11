@@ -233,9 +233,12 @@
         padding: 18px 33px;
     }
 
-    .container_footer{
+    .container-footer_flex{
         width:900px;
-    }  
+    } 
+    .reserved_right{
+        width: 900px;
+    } 
 }
 
 
@@ -451,9 +454,12 @@
         padding: 18px 33px;
     }
 
-    .container_footer{
+    .container-footer_flex{
         width:700px;
-    }  
+    } 
+    .reserved_right{
+        width: 700px;
+    } 
 }
 
 
