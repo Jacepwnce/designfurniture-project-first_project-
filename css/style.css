@@ -485,7 +485,9 @@ letter-spacing: 13%;
     justify-content: space-between;
     
 }
-
+.flex-item_chair{
+    cursor: pointer;
+}
 .flex-item_chair__name{
     margin-top: 31px;
     margin-left: 23px;
