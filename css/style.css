@@ -486,7 +486,7 @@ letter-spacing: 13%;
     
 }
 .flex-item_chair{
-    cursor: pointer;
+    cursor:pointer;
 }
 .flex-item_chair__name{
     margin-top: 31px;
@@ -635,13 +635,7 @@ letter-spacing: 13%
     vertical-align: middle;
 } */
 
-.rights-reserved{
-    text-align: end;
-    padding-top: 10px;
-    color: #000;
-    opacity: 0.2;
-    font-size: 10px;
-}
+
 
 /* переделываю футер */
 .footer{
@@ -678,7 +672,9 @@ letter-spacing: 5%;
 .contact-information a{
     color: #303032;
     text-decoration: none;
-    
+}
+.contact-information{
+    margin-bottom: 30px;
 }
 .tel-number{
     margin-right: 50.81px;
@@ -704,3 +700,14 @@ letter-spacing: 5%;
     vertical-align: middle;
 }
 
+.reserved_right{
+    padding-top: 10px;
+    width: 1170px;
+    margin: 0 auto;
+    text-align: end;
+    font-size: 10px;
+    font-family: 'Avenir Next Cyr';
+    font-weight: 400;
+    border-top: 1px solid #E5E5E5;
+    color:#E5E5E5;
+}
