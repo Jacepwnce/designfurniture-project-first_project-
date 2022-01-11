@@ -29,6 +29,12 @@ new Swiper ('.mySlider-2', {
 // второй слайдер
 
 
+
+
+//третий слайдер
+
+
+
 //бурег-меню
 $(document).ready(function(){
     $('.header__burger').click(function(event){
